@@ -1,0 +1,116 @@
+@charset "utf-8";
+body {
+    -webkit-box-shadow: 0px 0px #191919;
+    box-shadow: 0px 0px #191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-image: url(bokeh.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+#container main {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#container main div {
+}
+.column {
+}
+
+
+article p img {
+    float: right;
+
+}
+.floatLeft{
+	float:left;
+}
+
+#container{
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+
+	
+}
+body aside {
+    width: 150px;
+    height: 1800px;
+    float: left;
+}
+
+header{
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.jpg);
+		
+}
+nav{
+    width: 768px;
+    height: 50px;
+	position: fixed;
+	top: 0px;
+	background-color: white;
+}
+
+nav.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+	top: 0;}
+	
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 60px;
+}
+
+main{
+    width: 598px;
+    height: 1800px;
+    float: left;
+}
+
+
+footer{
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+h1{
+    color: #6BE7FF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+}
+#container nav ul {
+    margin: auto;
+    width: 575px;
+}
+nav a:link {
+    color: #6BE7FF;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #6A088F;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #6BE7FF;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #000000;
+}
